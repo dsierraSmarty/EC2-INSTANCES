@@ -3,8 +3,8 @@ resource "aws_security_group" "Prometheus" {
   description = "Grupo de seguridad para intancia Prometheus"
   vpc_id      = "${var.vpc}"
 
+  /*Cambio Open Project*/
    
-
   ingress {
     description      = "ssh-Prometheus"
     from_port        = 22

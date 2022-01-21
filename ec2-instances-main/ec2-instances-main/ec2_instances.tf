@@ -1,3 +1,5 @@
+/* Data Info for Open Project*/
+
 resource "aws_instance" "Prometheus" {
   ami           = "${var.ami-instancesPrometheus}"
   instance_type = "${var.type-client}"
