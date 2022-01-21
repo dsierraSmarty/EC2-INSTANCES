@@ -4,9 +4,6 @@ provider "aws" {
 }
 
 
-
-
-
 module "eks" {
   source       = "terraform-aws-modules/eks/aws"
   cluster_name =  "${var.project_name}"
