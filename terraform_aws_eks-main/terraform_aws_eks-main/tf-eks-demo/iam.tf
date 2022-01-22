@@ -15,7 +15,6 @@ resource "aws_iam_role" "demo-cluster-role" {
   ]
 }
 POLICY
-
 }
 
 resource "aws_iam_role_policy_attachment" "demo-cluster-AmazonEKSClusterPolicy" {
