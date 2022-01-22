@@ -4,4 +4,5 @@ resource "aws_vpc" "k2-vpc" {
   tags = {
     Name = "k2-vpc"
   }
+  
 } 
