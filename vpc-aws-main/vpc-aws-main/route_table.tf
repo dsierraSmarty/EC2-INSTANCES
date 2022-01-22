@@ -6,8 +6,6 @@ resource "aws_route_table" "r" {
   }
 }
 
-
-
 resource "aws_route_table_association" "table_subnet1" {
   subnet_id      = "${aws_subnet.subnet-k2-1.id}"
   route_table_id = "${aws_route_table.r.id}"
